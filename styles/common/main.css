@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman";
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  font-family: Helvetica;
+
+  -webkit-animation-delay: 0.1s;
+  -webkit-animation-name: fontfix;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+
+  @-webkit-keyframes fontfix {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+    -webkit-appearance: none;
+    width: 0;
+    height: 0;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: transparent;
+    background-color: transparent;
+    outline: none;
+  }
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "antic";
+  src: url("/assets/fonts/Antic-Regular.ttf");
+}
+
+@font-face {
+  font-family: "rochester";
+  src: url("/assets/fonts/Rochester-Regular.ttf");
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url("/assets/fonts/Montserrat/Montserrat-VariableFont_whgt.ttf");
+}
+
+/* @font-face {
+  font-family: "Neonderthaw";
+  src: url("/assets/fonts/Neonderthaw-Regular.ttf") format("truetype");
+} */
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url("/assets/fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: "BigShouldersText";
+  src: url("/assets/fonts/nimche/BigShouldersText-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Edo";
+  src: url("/assets/fonts/nimche/edo.ttf");
+}
+
+@font-face {
+  font-family: "KeyVirtue";
+  src: url("/assets/fonts/nimche/KeyVirtue.ttf");
+}
+
+@font-face {
+  font-family: "RyujinAttack";
+  src: url("/assets/fonts/nimche/RyujinAttack.ttf");
+}
+
+@font-face {
+  font-family: "Tajamuka";
+  src: url("/assets/fonts/nimche/Tajamuka.ttf");
+}
+
+@font-face {
+  font-family: "Wallpoet";
+  src: url("/assets/fonts/nimche/Wallpoet.ttf");
+}
+
+/* Roboto */
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("/assets/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  src: url("/assets/fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  src: url("/assets/fonts/Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 100;
+  src: url("/assets/fonts/Roboto/Roboto-Thin.ttf");
+}
+
+/* Avenir */
+@font-face {
+  font-family: "Avenir";
+  src: url("/assets/fonts/Avenir/Avenir-regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-weight: 700;
+  src: url("/assets/fonts/Avenir/Avenir-bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-weight: 300;
+  src: url("/assets/fonts/Avenir/Avenir-light.otf") format("opentype");
+}
+
+input {
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.yt-lite {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  cursor: context-menu;
+}
+
+.yt-lite {
+  transition: all 1s linear;
+}
+
+.lty-playbtn {
+  background: pink;
+}
+
+/* Mapbox: Current Position Pin */
+.mapboxgl-ctrl-top-right {
+}
+
+.mapboxgl-ctrl {
+  opacity: 0 !important;
+}
+
+.mapboxgl-ctrl-geolocate {
+  opacity: 0 !important;
+  width: 100px !important;
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+
+.mapboxgl-ctrl-icon {
+  opacity: 0 !important;
+}
+
+.content-embed {
+  position: relative;
+  background: white;
+  border-radius: 37.5px;
+  width: 375px;
+  height: 825px;
+  overflow: scroll;
+}
